@@ -1,13 +1,9 @@
-# (it) package stopped and ending support
- 
+#   
 
-[![N|Solid](https://m.media-amazon.com/images/I/71Ao1TKvlQL._SS500_.jpg)](https://github.com/arabnewscms/it)
+#   
  
- 
-I created this package hoping to get a lot of work done. It's really great but I didn't see the support I expected one day. Many people use this package and they like it.
-But what happened is the opposite of what I expected, so I decided to make my way here. I will stop until hope returns again. I apologize to you. Those who use this package will not find more updates in the coming period except in private (for a fee) only. The free version will stop here
-Thank you all, I wish you a good life
-
+#  But what happened is the opposite of what I expected, so I decided to make my way here. I will stop until hope returns again. I apologize to you. Those who use this package will not find more updates in the coming period except in private (for a fee) only. The free version will stop here
+#   
 
 
 <p align="center">
