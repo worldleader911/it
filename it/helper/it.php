@@ -1,28 +1,12 @@
-<?php
-if (!function_exists('disable_folder_list')) {
-	function disable_folder_list() {
-		return ['App\Console', 'App\DataTables', 'App\Exceptions', 'App\Http', 'App\Mail', 'App\Providers', 'App\it'];
-	}
-}
-
-if (!function_exists('getnamespace')) {
-	function getnamespace($namespaces) {
-		$namespaces = str_replace('App/Http/Controllers/', '', str_replace('\\', '/', $namespaces));
-		$namespaces = app_path('Http/Controllers/'.$namespaces);
-		foreach (array_filter(glob($namespaces.'/*'), 'is_dir') as $namespace) {
-			$controller_namespace_prefix = str_replace('/', '\\', 'App\\'.explode('app', $namespace)[1]);
-			$controller_namespace_prefix = str_replace('\\\\', '\\', $controller_namespace_prefix);
-			echo getnamespace($namespaces);
-			echo $namespace;
-			echo '<option value="'.$controller_namespace_prefix.'">'.$controller_namespace_prefix.'</option>';
-		}
-
-	}
-}
-
-if (!function_exists('get_model_baboon')) {
-	function get_model_baboon($model_list) {
-		$model_list = str_replace('App/Http/Controllers/', '', str_replace('\\', '/', $model_list));
+#  if (!function_exists('disable_folder_list')) {
+#  		return ['App\Console', 'App\DataTables', 'App\Exceptions', 'App\Http', 'App\Mail', 'App\Providers', 'App\it'];
+#  }
+#  if (!function_exists('getnamespace')) {
+#  		$namespaces = str_replace('App/Http/Controllers/', '', str_replace('\\', '/', $namespaces));
+# 		foreach (array_filter(glob($namespaces.'/*'), 'is_dir') as $namespace) {
+#   			$controller_namespace_prefix = str_replace('\\\\', '\\', $controller_namespace_prefix);
+# 			echo $namespace;
+#$app		$model_list = str_replace('App/Http/Controllers/', '', str_replace('\\', '/', $model_list));
 		$model_list = app_path('Http/Controllers/'.$model_list);
 		foreach (array_filter(glob($model_list.'/*'), 'is_dir') as $namespace) {
 			$model_list_files = str_replace('/', '\\', 'App\\'.explode('app', $namespace)[1]);
