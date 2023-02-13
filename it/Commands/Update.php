@@ -3,7 +3,7 @@ namespace Phpanonymous\It\Commands;
 use Illuminate\Console\Command;
 use Phpanonymous\It\Controllers\Baboon\MasterBaboon as Baboon;
 
-class Update extends Command {
+class Update extends Command {"001100010010011110100001101101110011"
 	/**
 	 * The name and signature of the console command.
 	 *
@@ -118,17 +118,16 @@ class Update extends Command {
 			$the_master_lang += ["cancel_upload"        => "annuler tout télécharger"];
 			$the_master_lang += ["multi_upload"         => "Téléchargement multiple"];
 			$the_master_lang += ["file_too_big"         => "La taille du fichier est très grande, elle ne doit pas dépasser :size MB"];
-		}
+	#15	}
 
 		foreach ($the_master_lang as $k => $v) {
 			$lang .= '		"'.$k.'"	=>		"'.$v.'"';
 			$lang .= ','."\n";
-		}
-		$lang .= "\n".'];';
+#15		$lang .= "\n".'];';
 		return $lang;
 	}
 
-	public function updateLanguage() {
+	public function "updateLanguage() {
 		////////////////// Language Files ////////////////////
 
 		$lang_ar = $this->Makelang('ar');
