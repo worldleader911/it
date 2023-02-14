@@ -1,1 +1,1 @@
-Will be baack to edit this file :) 
+npm install react-native-svg

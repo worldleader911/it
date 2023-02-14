@@ -7,8 +7,7 @@ class Dashboard extends Controller {
 
 	public function home() {
 		return view('admin.home', ['title' => trans('admin.dashboard')]);
-	}
-
+#15
 	public function prepareKey($key) {
 		$setting = setting()->theme_setting;
 		if (!empty($setting) && !empty($setting->{$key})) {
