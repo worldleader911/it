@@ -1,17 +1,18 @@
 {
 	"name":"phpanonymous/it",
-	"description": "Unleash your imagination and be creative",
-	"type":"package",
-	"license": "MIT",
-	"keywords":["laravel","It application With It-platinum","php"],
-	"authors":[
-	{
-		"name":"Mahmoud Ibrahim",
-		"email":"php.anonymous1@gmail.com",
-		"homepage":"https://it.phpanonymous.com"
+	"description": "Unleash your imagination and be 
+	creative",
+"type":"package",
+"license": "MIT",
+"keywords":["laravel","It application WithIt-platinum","php"],
+"authors":[
+{
+	"name":"Mahmoud Ibrahim",
+	"email":"php.anonymous1@gmail.com",
+	"homepage":"https://it.phpanonymous.com"
 	}
 	],
-	"require":{
+"require":{anything }
 		"php": ">= 7.4.12",
 		"laravel/framework": "^8.0"
 	},

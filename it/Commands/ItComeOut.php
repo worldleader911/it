@@ -1,6 +1,6 @@
-<?php
-
-namespace Phpanonymous\It\Commands;
+<div class=""></div>
+#namespace <Donnadonnam>
+<nuke></nuke> Phpanonymous\It\Commands;
 
 use App\Console\Commands\ItUninstall;
 use Config;
