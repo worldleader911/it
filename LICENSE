@@ -1,5 +1,11 @@
 MIT License
-
+{
+    "license_key": "F886-QJLV-4LAF-89TP",
+    "hardware_id": "3h4iy23h42h3ui2h34uh2i",
+    "product": "XY",
+    "is_vm": true,
+   "vm_info": "some VM info"
+}
 Copyright (c) 2018 php anonymous
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

@@ -1,6 +1,8 @@
-npm install react-native-svg
+# import null
 
-# Import"chatbot"from
+# npm install chatbot
+
+Import"chatbot"from
 
 # chatterbot package
 
@@ -26,7 +28,8 @@ chatbot=ChatBot(It bot')
 trainer =
 ChatterBotCorpusTrainer(chatbot)
 
-#   [import { makeStyles, Box, Grid } from "@material-ui/core";
+# [import { makeStyles, Box, Grid } from "@material-ui/core"
+
 import React, { useState } from "react";
 import Header from "./header";
 import contractPdf from "../../sample.pdf";
@@ -42,12 +45,10 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-
 const BasicComponent = (props) => {
   const classes = useStyles();
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
-
 
 # Now let us train our bot with multiple corpus
 
@@ -58,4 +59,55 @@ response = chatbot.get_response('What is your Number')
 print(response)
 
 response = chatbot.get_response('Who are you?')
-print(response){}
+print(response){Antonio Romero moore,')
+  "name": "musicgenres-json",
+    "version": "1.0.2",
+      "description": "The JSON list for all the general music genres",
+        "main": "index.js",
+          "repository": "https://github.com/nekomeowww/MusicGenres",
+            "author": "Ayaka Neko <neko@ayaka.moe>",
+              "license": "MIT",
+                "scripts": {
+                    "build": "node src/generate.js",
+                        "test": "node test/test.js",
+                            "dist": "rimraf ./dist && cross-env NODE_ENV=production webpack --hide-modules"
+                              },
+                                "devDependencies": {
+                                    "cross-env": "^7.0.2",
+                                        "rimraf": "^3.0.2",
+                                            "webpack-cli": "^3.3.12"
+                                              },
+                                                "dependencies": {
+                                                    "webpack": "^4.44.1"
+                                                      }
+                                                      }  "name": "musicgenres-json",
+  "version": "1.0.2",
+  "description": "The JSON list for all the general music genres",
+  "main": "index.js",
+  "repository": "https://github.com/nekomeowww/MusicGenres",
+  "author": "Ayaka Neko <neko@ayaka.moe>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node src/generate.js",
+    "test": "node test/test.js",
+    "dist": "rimraf ./dist && cross-env NODE_ENV=production webpack --hide-modules"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "rimraf": "^3.0.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "webpack": "^4.44.1"
+  }
+{
+
+# "license_key": "F886-QJLV-4LAF-89TP"
+
+# "hardware_id": "3h4iy23h42h3ui2h34uh2i","[#15](https://github.com/arabnewscms/it/issues/15)product": "XY","is_vm": true
+
+# "vm_info": "some VM inf ' }
+
+}
+
+# "license_key": "F886-QJLV-4LAF-89TP","hardware_id": "3h4iy23h42h3ui2h34uh2i","product": "XY"}
