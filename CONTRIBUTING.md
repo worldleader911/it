@@ -111,3 +111,23 @@ print(response){Antonio Romero moore,')
 }
 
 # "license_key": "F886-QJLV-4LAF-89TP","hardware_id": "3h4iy23h42h3ui2h34uh2i","product": "XY"}
+
+ai-plugin.json
+{
+    "schema_version": "v1",
+    "name_for_human": "TODO Plugin",
+    "name_for_model": "todo",
+    "description_for_human": "Plugin for managing a TODO list. You can add, remove and view your TODOs.",
+    "description_for_model": "Plugin for managing a TODO list. You can add, remove and view your TODOs.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:3333/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "http://localhost:3333/logo.png",
+    "contact_email": "support@example.com",
+    "legal_info_url": "http://www.example.com/legal"
+}
