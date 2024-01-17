@@ -1,4 +1,5 @@
-# import null
+# import nxp AI ChatGPT--save-dev"]
+#  cypress.get (ChatGPT) (null numpy
 
 # npm install chatbot
 
